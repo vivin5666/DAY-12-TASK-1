@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .navbar{
+    height: 85px;
+    background-color: rgb(70, 68, 68);
+  }
+  
+  .navbar i{
+    font-size: 450%;  
+    margin-bottom: 100%;
+    color:white;
+  }
+  
+  .navbar p{
+    font-size: 30px;  
+    margin: 400%;
+    color: whitesmoke;
+    
+  }
+
+  .m-container{
+    background-color: #cad2c5;
+    height: 88vh;
+  }
+  
+  .m-container .box-1{
+    height: 500px;
+    background-color:rgb(69, 68, 68);;
+    border-radius: 20px;
+    width: 300px;
+  }
+  
+  .search-area{
+    margin: 50px 0;
+    width: 100%;
+    
+  }
+  
+  .search{
+    width: 650px;
+    height: 40px;
+    background-color:rgb(69, 68, 68);;
+    margin: 0 auto;
+    display: block;
+    border-radius: 6px;
+  }
+  
+  .cards{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cards .card{
+    width: 30%;
+    height: 170px;
+    background-color:rgb(69, 68, 68);
+    border-radius: 12px;
+  }
+  
+  .last{
+    height: 190px;
+    background-color: rgb(69, 68, 68);;
+    border-radius: 20px;
+    width: 97%;
+    margin: 15px auto;
+  }
